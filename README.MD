@@ -12,6 +12,6 @@ Here's my progress on the videos:
 - [x] ~~User Events in Vue 3~~
 - [x] ~~Methods in Vue 3~~
 - [x] ~~Conditional Rendering in Vue 3~~
-- [x] ~HTML Attribute Binding in Vue 3~
-- [ ] Dynamic CSS classes with Vue 3
+- [x] ~~HTML Attribute Binding in Vue 3~~
+- [x] ~~Dynamic CSS classes with Vue 3~~
 - [ ] Computed Properties in Vue 3
