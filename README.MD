@@ -9,7 +9,7 @@ Here's my progress on the videos:
 - [x] ~~Vue.js 3 template Syntax and Expressions~~
 - [x] ~~List Rendering in Vue 3~~
 - [x] ~~User Inputs in Vue 3~~
-- [ ] User Events in Vue 3
+- [x] User Events in Vue 3
 - [ ] Methods in Vue 3
 - [ ] Conditional Rendering in Vue 3
 - [ ] HTML Attribute Binding in Vue 3

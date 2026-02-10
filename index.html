@@ -8,25 +8,25 @@
 </head>
 
 <body>
-
   <div id="shopping-list">
 
     <h1>{{ header || 'Welcome' }}</h1>
 
-    <input v-model="newItem" type="text" placeholder="Add an item">
+    <form class="add-item-form" @submit.prevent="items.push({id: items.length + 1, label: newItem})">
+      <input v-model.trim="newItem" type="text" placeholder="Add an item">
 
-    <label>
+      <label>
+        <input type="checkbox" v-model="newItemHighPriority"> High Priority
+      </label>
 
-      <input type="checkbox" v-model="newItemHighPriority"> High Priority
-
-    </label>
+      <button class="btn btn-primary">
+        Save Item
+      </button>
+    </form>
 
     <ul>
-
       <li v-for="item in items" :key="item.id">{{item.label}}</li>
-
     </ul>
-
   </div>
 
   <script src="https://unpkg.com/vue@3"></script>
@@ -46,7 +46,6 @@
       }
     }).mount('#shopping-list')
   </script>
-
 </body>
 
 </html>
