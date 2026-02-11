@@ -5,16 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping List App</title>
-  <style>
-    .strikeout {
-      text-decoration: line-through;
-    }
-
-    .priority {
-      font-weight: 800;
-      font-size: 1.25em;
-    }
-  </style>
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -38,7 +29,7 @@
         High Priority
       </label>
 
-      <button :disabled="newItem.length < 5" @click="saveItem" class="btn btn-primary">
+      <button :disabled="newItem.length === 0" @click="saveItem" class="btn btn-primary">
         Save Item
       </button>
     </div>
@@ -71,7 +62,7 @@
             { id: 2, label: "2 board games", purchased: true, highPriority: false },
             { id: 3, label: "20 cups", purchased: false, highPriority: true },
           ]
-        };
+        }
       },
 
       computed: {

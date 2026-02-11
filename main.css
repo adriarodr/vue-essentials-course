@@ -1,0 +1,42 @@
+body {
+  font-size: 1.125em;
+}
+
+#shopping-list {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.strikeout {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  opacity: 0.6;
+}
+
+.priority {
+  color: hsl(0, 100%, 32%);
+  font-weight: 800;
+}
+
+ul > li {
+  list-style-type: none;
+  text-align: center;
+  padding: 0.25em;
+  margin-block: 1.25em;
+  border-radius: 5px;
+}
+
+ul {
+  padding: 0;
+  width: 30%;
+  margin: 1em auto;
+}
+
+.add-item-form {
+  margin-top: 0.75em;
+}
+
+.btn {
+  padding: 0.25em;
+}
