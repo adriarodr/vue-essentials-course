@@ -11,7 +11,7 @@ body {
 .strikeout {
   text-decoration: line-through;
   text-decoration-thickness: 2px;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .priority {
